@@ -1,0 +1,4 @@
+import sklearn.preprocessing
+test = dir(sklearn.preprocessing)
+for name in test:
+    print(name)
